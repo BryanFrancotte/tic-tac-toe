@@ -17,6 +17,9 @@ import './index.css';
 //     }
 // }
 
+
+// the component class Square has been transformed has a component function because it has no state and no action
+// its a controlled component
 function Square(props) {
     return (
         <button className="square" onClick={props.onClick}>
